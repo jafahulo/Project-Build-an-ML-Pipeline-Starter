@@ -56,43 +56,43 @@ if __name__ == "__main__":
   
     parser.add_argument(
         "--input_artifact", 
-        type = str,
-        help = 'the file to clean',
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
-        type = str,
-        help = 'Our cleaned file',
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
-        type = str,
-        help = 'the type of object that is returned',
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
-        type = str,
-        help = 'a description of our output object (The cleaned file)',
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--min_price", 
-        type = int,
-        help = 'minimum price to consider in the cleaning process',
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
     parser.add_argument(
         "--max_price",
-        type = int,
-        help = 'maximum price to consider in the cleaning process',
+        type = ## INSERT TYPE HERE: str, float or int,
+        help = ## INSERT DESCRIPTION HERE,
         required = True
     )
 
